@@ -1,0 +1,27 @@
+<!-- Create Advisory Modal -->
+<div class="modal fade" id="create_advisory" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Post Announcement</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="../system/database/db_advisory.php" method="post" enctype="multipart/form-data">
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Subject</label>
+            <input type="text" class="form-control" name="subject" id="formGroupExampleInput" required>
+          </div>
+            
+          <div class="input-group">        
+              <textarea class="form-control" name="message" placeholder="Type message here..." rows="10"  required></textarea>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="submit" name="create_advisory" class="btn btn-primary">Post</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+body{
+    background-image: url(city_map.jpg);
+    font-family: 'Lato', sans-serif;
+}
+
+.custom{
+    height: 52rem;
+    overflow-y: auto;
+}
+
+.chats{
+    height: 48rem;
+    overflow-y: auto;
+    background-color: black;
+}
+
+.tb-custom{
+    background-color: white;
+}

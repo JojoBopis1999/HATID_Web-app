@@ -1,0 +1,11 @@
+body{
+    background-image: url(city_map.jpg);
+    font-family: 'Lato', sans-serif;
+}
+.list-group{
+    max-height: 500px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}  
+

@@ -1,0 +1,50 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url(background.png);
+
+}
+.bg-image{
+    filter: blur(8px);
+}
+
+#map {
+    height: 100%;
+  }
+
+.cb1-color{
+    background-color: #c0ab7f;
+}
+
+.cb2-color{
+    background-color: #7f796d;
+
+}
+
+.rt-button, .rt-button:hover, .rt-button:active, .rt-button:visited {
+    background-color: #bdcaea;
+    width: 100px;
+}
+
+.loc-card{
+    background-color: #b2a995;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.c-opacity{
+    background: rgba(255,255,255, 0.3)
+}
+
+@media (max-width: 700px) {
+    .nav-color, .nv-bcolor{
+        background-color: white;
+        color: black;
+        border-radius: 0;
+        border-color: white;
+    }
+    .nv-bcolor:hover, .nv-bcolor:visited, .nv-bcolor:active{
+        background-color: white;
+    }
+}
